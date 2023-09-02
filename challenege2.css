@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: darkcyan;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+
+}
+
+.logo{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: aquamarine;
+    height: 35px;
+    width: 125px;
+    border-radius: 10px;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: aquamarine;
+    font-weight: 500;
+    margin-left: 35px;
+    padding: 10px;
+
+
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: yellow;
+}
+
+.About{
+    margin-top: 150px;
+}
+
+.About{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding:0 10% ;
+  
+}
+
+.About-me{
+    background: yellowgreen;
+    max-width: 600px;
+    border-radius: 15px;
+    height: 310px;
+    
+
+}
+
+.About-me h1{
+    font-size: 56px;
+    font-weight: 700;
+
+
+}
+
+.About-me h3{
+    font-size: 30px;
+    font-weight: 700;
+   color: blue;
+
+}
+
+.About-me p{
+    font-size: 16px;
+}
+
+ .About-me .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+   
+    border-radius: 15px;
+    
+
+}
+.About-me .btn-box a{
+    color: black;
+   
+
+}
+.btn-box a{
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    background: yellow;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    align-items: center;
+
+}
+
+.img{
+    margin-top: -600px;
+    margin-left: 200px;
+  
+   
+}
+
+.footer {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
